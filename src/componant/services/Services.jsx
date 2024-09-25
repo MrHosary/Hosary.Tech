@@ -10,7 +10,7 @@ const servicesData = [
     key: "service1",
   },
   {
-    image: "public/image/متاجر إلكترونية.gif",
+    image: "./image/متاجر إلكترونية.gif",
     key: "service2",
   },
   {

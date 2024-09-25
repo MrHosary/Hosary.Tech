@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: snow !important;
+  background-color: #f9f9f9 !important;
   overflow: hidden !important;
 }
 body * {
