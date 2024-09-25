@@ -1,0 +1,51 @@
+.services-container {
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.services-box {
+  width: 90%;
+  margin: auto;
+}
+
+.services-box-img {
+  height: 100%;
+}
+.service-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 0.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.service-content img {
+  width: 80%;
+  margin: auto;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.service-title {
+  font-size: 1.5rem;
+}
+
+.service-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .services-box-img img {
+    width: 70%;
+    margin: auto;
+  }
+}

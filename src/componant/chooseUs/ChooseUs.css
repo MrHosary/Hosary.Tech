@@ -1,0 +1,74 @@
+.why-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.why-us-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.why-us-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.why-us-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.why-us-card {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.why-us-card .content {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.why-us-card .content:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.why-us-card .content .icon {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  .why-us-container {
+    flex-direction: column;
+    padding: 50px 5px;
+  }
+  .why-us-content {
+    padding-right: 0px;
+  }
+  .why-us-card {
+    width: 90%;
+  }
+  .why-us-content p {
+    font-size: 1rem;
+  }
+}

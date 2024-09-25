@@ -1,0 +1,33 @@
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-select {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0000002d;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-select:focus {
+  outline: none;
+  border: none;
+  /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); */
+}
+
+.language-select option {
+  padding: 10px;
+  background-color: #000000a1;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .language-switcher {
+    margin-bottom: 1rem;
+  }
+}

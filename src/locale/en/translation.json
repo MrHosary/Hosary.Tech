@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "chooseUs": "choose Us",
+    "contact": "Contact Us"
+  },
+
+  "home": {
+    "title1": "Let's write your success story together",
+    "subtitle1": "We provide distinguished project management services, focusing on website and application development. It also includes advertising and digital marketing, which enhances your presence in the market. We work to implement innovative ideas to ensure the success of your projects and achieve your goals effectively.",
+    "title2": "We turn your ideas into digital reality",
+    "subtitle2": "We turn your ideas into real projects through innovative solutions and simple plans. We combine creativity and technology to make your vision a successful and easy-to-achieve reality.",
+    "title3": "Innovation opens new horizons",
+    "subtitle3": "Providing new and innovative solutions that help you explore unlimited opportunities, contributing to achieving amazing results in your field. We focus on providing you with the necessary tools to achieve",
+    "contactButton": "Contact us"
+  },
+
+  "about": {
+    "title": "About Us",
+    "description": "I am Mohamed Hosary, an Information Systems Engineer, and I live the passion for management and innovation. As an independent project manager, I approach every challenge with passion and enthusiasm, driven by a strong desire to succeed. In the fast-paced world of technology, I have the expertise to turn ideas into reality.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "I always strive to achieve exceptional results, and I am happy to help clients achieve their dreams and ambitions. Let’s make every project an inspiring journey towards success, and together we build a bright future full of opportunities!"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "Every project is an opportunity to explore new horizons, as I develop unique websites and applications. I fully understand that each client has a unique vision, and I strive to provide innovative solutions that precisely meet their needs. Enhancing clients’ presence in the market is not just a goal, but a passion that drives me to use effective advertising strategies that help their brands stand out in a world full of competition."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "I believe in the power of communication, and I believe that building strong relationships with clients is the key to success. Every interaction is an opportunity to listen, learn, and exceed their expectations. My passion does not stop at execution, but extends to continuous innovation and embracing the latest trends in the industry."
+    }
+  },
+
+  "services": {
+    "title": "Our Services",
+    "service1": {
+      "title": " Websites",
+      "description": "Develop professional websites that reflect brand identity and meet customer needs."
+    },
+    "service2": {
+      "title": "E-commerce",
+      "description": "Create premium shopping platforms that provide a seamless and efficient user experience."
+    },
+    "service3": {
+      "title": " Building Apps",
+      "description": "Develop innovative applications that fit different devices and achieve user interaction."
+    },
+    "service4": {
+      "title": " Marketing",
+      "description": "Comprehensive marketing strategies to enhance digital presence and increase audience engagement."
+    }
+  },
+
+  "chooseUs": {
+    "title": "Why Choose Us?",
+    "description": "Choosing us is the right choice to excel in the world of technology. We offer a unique blend of expertise and innovation, fully understanding our clients’ needs and helping them achieve their goals effectively. Our commitment to quality and professionalism ensures that we deliver customized solutions that meet your expectations and help boost your presence in the market. Our continuous communication with clients builds trust and ensures outstanding results. Join us to build a bright future together!",
+    "card1": "work experience",
+    "card2": "global service",
+    "card3": "Speed ​​and reliability"
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": " Email Address",
+    "phone": "Phone Number",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent successfully",
+    "failure": "Failed to send message"
+  },
+
+  "footer": {
+    "contact": "Contact Us",
+    "followUs": " Follow Us",
+    "copyright": "All rights reserved"
+  }
+}
