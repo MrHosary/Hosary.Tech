@@ -79,9 +79,9 @@ body[dir="rtl"] .contact-us-form textarea:focus + label {
 }
 
 .contact-us-form button {
-  padding: 12px 40px;
+  padding: 10px;
   display: block;
-  width: 40%;
+  width: 50%;
   margin-inline: auto;
   background-color: #69af0e;
   color: white;

@@ -30,12 +30,15 @@
   text-align: justify;
 }
 
+.home-image {
+  padding-top: 1rem;
+}
 .contact-button {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem;
   margin: auto;
-  width: 40%;
+  width: 50%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: #80cc1d;
   color: #000;
   border: none;
@@ -70,7 +73,7 @@
     margin-bottom: 1rem;
   }
   .home-title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
   }
@@ -79,6 +82,6 @@
     font-size: 0.9rem;
   }
   .contact-button {
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem;
   }
 }

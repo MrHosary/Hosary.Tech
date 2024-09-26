@@ -68,7 +68,11 @@
   .why-us-card {
     width: 90%;
   }
+  .why-us-content h1 {
+    text-align: center;
+  }
   .why-us-content p {
     font-size: 1rem;
+    text-align: center;
   }
 }
