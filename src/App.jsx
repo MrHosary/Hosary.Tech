@@ -15,7 +15,10 @@ function App() {
     document.body.dir = i18n.language === "ar" ? "rtl" : "ltr";
   }, [i18n.language]);
   return (
-    <div className="app-container" dir={i18n.language === "ar" ? "rtl" : "ltr"}>
+    <div
+      className="app-container"
+      dir={i18n.language === "ar" ? "arabic" : "english"}
+    >
       <NavBar />
       <div className="container">
         <Home />

@@ -29,11 +29,11 @@ const Home = () => {
       <Carousel interval={3000} controls={false} indicators={false}>
         {slidesData.map((slide, index) => (
           <Carousel.Item key={index}>
-            <Row className="align-items-center flex-column-reverse flex-md-row">
+            <Row className="align-items-center justify-content-space-between m-auto flex-column-reverse flex-md-row">
               <Col md={6}>
                 <div className="text-container">
                   <motion.h1
-                    className="home-title"
+                    className="home-title ar-title"
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}

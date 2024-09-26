@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { FcWorkflow, FcApproval, FcGlobe } from "react-icons/fc";
+import { FcVoicemail, FcApproval, FcGlobe } from "react-icons/fc";
 
 import "./ChooseUs.css";
 
@@ -43,7 +43,8 @@ const ChooseUs = () => {
         transition={{ duration: 1 }}
       >
         <div className="content">
-          <FcWorkflow className="icon" />
+          <FcVoicemail className="icon" />
+          {/* <FcWorkflow className="icon" /> */}
           <h5>{t("chooseUs.card1")}</h5>
         </div>
 

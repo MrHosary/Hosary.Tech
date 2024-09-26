@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
 html {
   scrollbar-color: #80cc1d transparent;
   scrollbar-width: thin;
@@ -14,16 +18,18 @@ body {
 body * {
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  font-family: "Tajawal", sans-serif;
 }
 
-.rtl {
-  direction: rtl;
+.arabic {
   text-align: right;
+  direction: rtl;
 }
 
-.ltr {
-  direction: ltr;
+.english {
+  font-family: "Arial", sans-serif !important;
   text-align: left;
+  direction: ltr;
 }
 a {
   text-decoration: none !important;
@@ -32,3 +38,5 @@ a {
 .app-container {
   transition: all 0.5s ease;
 }
+
+/* Styles Arabic */

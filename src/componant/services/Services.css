@@ -5,7 +5,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 
@@ -36,7 +36,9 @@
 }
 
 .service-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 0;
+  margin-top: 0.5rem;
 }
 
 .service-description {
@@ -45,6 +47,9 @@
   padding: 10px;
 }
 @media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
   .services-box-img img {
     width: 70%;
     margin: auto;
