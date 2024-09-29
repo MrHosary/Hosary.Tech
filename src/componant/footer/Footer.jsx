@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content container">
         <div className="footer-section">
-          <img src="./image/logo1.png" alt="logo" />
+          <img src="./image/logo2.jpeg" alt="logo" />
         </div>
         <div className="footer-section">
           <h3>{t("footer.contact")}</h3>

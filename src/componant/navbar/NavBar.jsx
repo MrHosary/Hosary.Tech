@@ -46,7 +46,7 @@ const Navbar = () => {
           {isMenuOpen ? <FaTimes /> : <FaBars />}
         </div>
         <div className="logo">
-          <img src="./image/logo1.png" alt="Logo" />
+          <img src="./image/logo2.jpeg" alt="Logo" />
         </div>
       </div>
     </nav>
