@@ -21,7 +21,7 @@ const Footer = () => {
           <h3>{t("footer.contact")}</h3>
           <p>
             <MdAttachEmail /> :{" "}
-            <a href="mailto:mhosary.tech@gmail.com">mhosary.tech@gmail.com</a>
+            <a href="mailto:hosary.tech@gmail.com">hosary.tech@gmail.com</a>
           </p>
           <p>
             <FaPhoneAlt /> :{" "}
