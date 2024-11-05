@@ -27,6 +27,7 @@ const LanguageSwitcher = ({ closeMenu }) => {
       >
         <option value="en">En</option>
         <option value="ar">Ar</option>
+        <option value="he">He</option> 
       </select>
     </div>
   );

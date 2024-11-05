@@ -8,16 +8,18 @@ import ChooseUs from "./componant/chooseUs/ChooseUs";
 import Contact from "./componant/contactUs/Contact";
 import Footer from "./componant/footer/Footer";
 import Buttons from "./componant/button/Buttons";
+
 function App() {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    document.body.dir = i18n.language === "ar" ? "rtl" : "ltr";
+    document.body.dir = i18n.language === "ar" || i18n.language === "he" ? "rtl" : "ltr";
   }, [i18n.language]);
+
   return (
     <div
       className="app-container"
-      dir={i18n.language === "ar" ? "arabic" : "english"}
+      dir={i18n.language === "ar" || i18n.language === "he" ? "rtl" : "ltr"}
     >
       <NavBar />
       <div className="container">
